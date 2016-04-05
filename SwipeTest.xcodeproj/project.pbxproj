@@ -14,6 +14,7 @@
 		42551A541CB0D50E008141B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42551A531CB0D50E008141B8 /* Assets.xcassets */; };
 		42551A571CB0D50E008141B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42551A551CB0D50E008141B8 /* LaunchScreen.storyboard */; };
 		42799C981CB0DABA0002E036 /* top_jacket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42799C971CB0DABA0002E036 /* top_jacket.jpg */; };
+		42799C9A1CB2BE560002E036 /* CustomeSWCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42799C991CB2BE560002E036 /* CustomeSWCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		42551A561CB0D50E008141B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42551A581CB0D50E008141B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42799C971CB0DABA0002E036 /* top_jacket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = top_jacket.jpg; path = ../../../Downloads/top_jacket.jpg; sourceTree = "<group>"; };
+		42799C991CB2BE560002E036 /* CustomeSWCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeSWCell.swift; sourceTree = "<group>"; };
 		671B1DD6166F5B8CB64FBFC3 /* Pods_SwipeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41BE351F0ACBC4AFCF09914 /* Pods-SwipeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeTest/Pods-SwipeTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +85,7 @@
 				42551A4C1CB0D50E008141B8 /* AppDelegate.swift */,
 				42551A4E1CB0D50E008141B8 /* ViewController.swift */,
 				42551A501CB0D50E008141B8 /* Main.storyboard */,
+				42799C991CB2BE560002E036 /* CustomeSWCell.swift */,
 				42799C971CB0DABA0002E036 /* top_jacket.jpg */,
 				42551A531CB0D50E008141B8 /* Assets.xcassets */,
 				42551A551CB0D50E008141B8 /* LaunchScreen.storyboard */,
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42551A4F1CB0D50E008141B8 /* ViewController.swift in Sources */,
+				42799C9A1CB2BE560002E036 /* CustomeSWCell.swift in Sources */,
 				42551A4D1CB0D50E008141B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
