@@ -91,15 +91,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(table: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         // tableCell の ID で UITableViewCell のインスタンスを生成
-        let cell = table.dequeueReusableCellWithIdentifier("tableCell", forIndexPath: indexPath)
+//        let cell = table.dequeueReusableCellWithIdentifier("tableCell", forIndexPath: indexPath)
         
         // tableCell の ID で SWTableViewCell のインスタンスを生成
-//        let cell = table.dequeueReusableCellWithIdentifier("tableCell", forIndexPath: indexPath) as! SWTableViewCell
+        let cell = table.dequeueReusableCellWithIdentifier("tableCell", forIndexPath: indexPath) as! SWTableViewCell
         // ボタンの設定
-//        cell.rightUtilityButtons = self.getRightUtilityButtonsToCell() as [AnyObject]
-//        cell.leftUtilityButtons = self.getLeftUtilityButtonsToCell() as [AnyObject]
+        cell.rightUtilityButtons = self.getRightUtilityButtonsToCell() as [AnyObject]
+        cell.leftUtilityButtons = self.getLeftUtilityButtonsToCell() as [AnyObject]
         // アクションを受け取るために設定
-//        cell.delegate = self
+        cell.delegate = self
 
         let img = UIImage(named:"\(image)")
         // Tag番号 1 で UIImageView インスタンスの生成
@@ -109,6 +109,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // Tag番号 ２ で UILabel インスタンスの生成
         let label1 = table.viewWithTag(2) as! UILabel
         label1.text = "No.\(indexPath.row + 1)"
+        label1.textColor = UIColor.zepTealColor()
         
         return cell
     }
